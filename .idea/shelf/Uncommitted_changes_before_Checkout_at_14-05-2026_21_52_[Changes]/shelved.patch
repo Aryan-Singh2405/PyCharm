@@ -1,0 +1,25 @@
+Index: class 1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>print(\"this is day one of learning the python\")\r\ns = \"aryan\"\r\nprint(s)\r\n\r\ns = \"dude\"\r\nage = int(21)\r\nprint(s, age, type(age))\r\n\r\nname, age2= input(\"Enter your name: \").split()\r\nprint(name, age2)
+===================================================================
+diff --git a/class 1.py b/class 1.py
+--- a/class 1.py	(revision 5739382ad1e0f4097f803582612257003f1015f7)
++++ b/class 1.py	(date 1778773826862)
+@@ -1,10 +1,4 @@
+-print("this is day one of learning the python")
+-s = "aryan"
+-print(s)
+-
+-s = "dude"
+-age = int(21)
+-print(s, age, type(age))
+-
+-name, age2= input("Enter your name: ").split()
+-print(name, age2)
+\ No newline at end of file
++x = ("aryan")
++i=0
++for i in range(len(x)):
++    print(x[i]) if i % 2 == 0 else print(end = "")
+\ No newline at end of file
