@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3af52bc0-0724-43ff-8a28-af276127f117" name="Changes" comment="testing">
-      <change afterPath="$PROJECT_DIR$/class_escape_sequence.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FIZZ_BUZZ.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/class_formatted_strings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/class 1.py" beforeDir="false" afterPath="$PROJECT_DIR$/class 1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="12" />
+    <option name="cachedIndexableFilesCount" value="14" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -53,23 +53,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.4558638550596192" />
-      <entry key="MS500" value="2.512263702829645" />
-      <entry key="S2" value="4.493177975157419" />
-      <entry key="S5" value="6.812340515757798" />
-      <entry key="S10" value="8.167826590643042" />
-      <entry key="S30" value="9.6977761009428" />
-      <entry key="S60" value="11.950132330226582" />
-      <entry key="M2" value="15.926108875298606" />
-      <entry key="M5" value="21.14764843639285" />
-      <entry key="M10" value="23.760985865883345" />
-      <entry key="M15" value="24.764030495817877" />
-      <entry key="M30" value="25.841746686141768" />
-      <entry key="H1" value="26.41042135288754" />
-      <entry key="H2" value="26.702547903402305" />
-      <entry key="H4" value="26.850601928971532" />
-      <entry key="D1" value="26.975006442703556" />
-      <entry key="W1" value="26.996427185636318" />
+      <entry key="MS100" value="1.0000000086179985" />
+      <entry key="MS500" value="1.0243826766047384" />
+      <entry key="S2" value="1.4037120286968419" />
+      <entry key="S5" value="1.877187143818554" />
+      <entry key="S10" value="3.543591832166662" />
+      <entry key="S30" value="21.789730541461672" />
+      <entry key="S60" value="44.28409131130824" />
+      <entry key="M2" value="68.2052554279048" />
+      <entry key="M5" value="97.94784212895448" />
+      <entry key="M10" value="116.12543815755512" />
+      <entry key="M15" value="124.73061833928566" />
+      <entry key="M30" value="137.5839979079415" />
+      <entry key="H1" value="154.9844874674804" />
+      <entry key="H2" value="212.66622288556965" />
+      <entry key="H4" value="329.8958629420522" />
+      <entry key="D1" value="601.2111353538238" />
+      <entry key="W1" value="681.2437074219669" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -77,37 +77,37 @@
       <entry key="S2" value="0.0" />
       <entry key="S5" value="0.0" />
       <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="S30" value="1.8962053006664282E-188" />
+      <entry key="S60" value="1.3770277051194103E-94" />
+      <entry key="M2" value="1.1734682378653086E-47" />
+      <entry key="M5" value="1.689771125079498E-19" />
+      <entry key="M10" value="4.160594156485E-10" />
+      <entry key="M15" value="5.887678773389947E-7" />
+      <entry key="M30" value="0.001010913949855653" />
+      <entry key="H1" value="0.05319254456722019" />
+      <entry key="H2" value="0.4740732778566032" />
+      <entry key="H4" value="1.5942893837816299" />
+      <entry key="D1" value="4.770662211444606" />
+      <entry key="W1" value="5.8054639494190114" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.420561833261474" />
-      <entry key="MS500" value="2.4955111269784473" />
-      <entry key="S2" value="4.486476814315077" />
-      <entry key="S5" value="6.808727353963028" />
-      <entry key="S10" value="8.165753338995255" />
-      <entry key="S30" value="9.693651712912366" />
-      <entry key="S60" value="11.932407096910325" />
-      <entry key="M2" value="15.897750371957516" />
-      <entry key="M5" value="21.1246480700779" />
-      <entry key="M10" value="23.746415582800232" />
-      <entry key="M15" value="24.753518806161537" />
-      <entry key="M30" value="25.836058706252597" />
-      <entry key="H1" value="26.407462706619977" />
-      <entry key="H2" value="26.701039049040197" />
-      <entry key="H4" value="26.849840008038193" />
-      <entry key="D1" value="26.974878405544803" />
-      <entry key="W1" value="26.996408868765915" />
+      <entry key="MS100" value="9.077007622945674E-9" />
+      <entry key="MS500" value="0.03250911741494528" />
+      <entry key="S2" value="0.7003286721573332" />
+      <entry key="S5" value="1.4758978952949928" />
+      <entry key="S10" value="3.3042268155673713" />
+      <entry key="S30" value="21.693228643479642" />
+      <entry key="S60" value="44.223843109070444" />
+      <entry key="M2" value="68.15167606262165" />
+      <entry key="M5" value="97.89754784230354" />
+      <entry key="M10" value="116.08789620664348" />
+      <entry key="M15" value="124.70125149297179" />
+      <entry key="M30" value="137.56687539917382" />
+      <entry key="H1" value="155.02630670478686" />
+      <entry key="H2" value="213.13121024269884" />
+      <entry key="H4" value="331.4821765648811" />
+      <entry key="D1" value="605.9790764502934" />
+      <entry key="W1" value="687.0487217319966" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -119,33 +119,62 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.class 1.executor": "Run",
-    "Python.class 2.executor": "Run",
-    "Python.class_escape_sequence.executor": "Run",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "main",
-    "git.auto.fetch.suggestion.counter": "1",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.class 1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class 2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class-formatted-strings.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class_escape_sequence.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class_formatted_strings.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Python.class-formatted-strings.py">
+    <configuration name="class-formatted-strings.py" type="PythonConfigurationType" factoryName="Python">
+      <module name="PyCharm" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.14 (PyCharmMiscProject)" />
+      <option name="WORKING_DIRECTORY" value="C:\Users\Aryan\PycharmProjects\PyCharm" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$FileName$" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="class_escape_sequence" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PyCharm" />
       <option name="ENV_FILES" value="" />
@@ -172,6 +201,10 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.class-formatted-strings.py" />
+      <item itemvalue="Python.class_escape_sequence" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.class_escape_sequence" />
@@ -197,7 +230,12 @@
       <workItem from="1778659178551" duration="5594000" />
       <workItem from="1778741726379" duration="11539000" />
       <workItem from="1778813424929" duration="6602000" />
-      <workItem from="1779378125299" duration="513000" />
+      <workItem from="1779378125299" duration="1776000" />
+      <workItem from="1779387877000" duration="740000" />
+      <workItem from="1779425216579" duration="5626000" />
+      <workItem from="1779441860134" duration="1201000" />
+      <workItem from="1779443095791" duration="2702000" />
+      <workItem from="1779465585546" duration="4544000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <option name="closed" value="true" />
@@ -223,7 +261,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778821321691</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testing">
+      <option name="closed" value="true" />
+      <created>1779378669958</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1779378669958</updated>
+    </task>
+    <task id="LOCAL-00005" summary="testing">
+      <option name="closed" value="true" />
+      <created>1779379026736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1779379026736</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +300,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCharm$class_1.coverage" NAME="class 1 Coverage Results" MODIFIED="1778821603556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyCharm$class_formatted_strings_py.coverage" NAME="class-formatted-strings.py Coverage Results" MODIFIED="1779484159962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Aryan\PycharmProjects\PyCharm" />
     <SUITE FILE_PATH="coverage/PyCharm$class_2.coverage" NAME="class 2 Coverage Results" MODIFIED="1778821286681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyCharm$class_escape_sequence.coverage" NAME="class_escape_sequence Coverage Results" MODIFIED="1779378638705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/PyCharm$class_escape_sequence.coverage" NAME="class_escape_sequence Coverage Results" MODIFIED="1779379680889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
