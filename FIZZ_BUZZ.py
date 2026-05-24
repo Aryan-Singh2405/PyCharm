@@ -107,7 +107,7 @@
 # print(li)
 
 
-numbers = [5, 51, 2, 15, 6]
+# numbers = [5, 51, 2, 15, 6]
 
 # # sort numbers in use the sort() method
 # numbers.sort()
@@ -120,3 +120,22 @@ numbers = [5, 51, 2, 15, 6]
 
 # print(sorted(numbers))
 # print(sorted(numbers, reverse=True))
+
+
+
+items = [('item_1',20),
+         ('item_2',40),
+         ('item_3',70),
+         ('item_4',35),
+         ('item_5',25),
+         ('item_6',12),
+         ('item_7',10),
+         ('item_8',24),
+         ('item_9',69),
+         ('item_10',5)]
+print(items)
+
+def sort_items_by_price(index):
+    return index[1]
+items.sort(key=sort_items_by_price)
+print(items)
