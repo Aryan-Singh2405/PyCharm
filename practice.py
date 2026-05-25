@@ -63,5 +63,9 @@ else:
 # print(factorial)
 
 # question 7:
+# list_one = ["apple","banana","cherry","date","elderberry"]
+# list_one.pop(1)
+# list_one.insert(4,"fig")
+# print(list_one)
 
 
