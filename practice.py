@@ -159,13 +159,37 @@
 
 # def palindrome(text):
 #     for i in range(0,len(text)):
-#         if text[i] == text[(-i)-1]:
+#         if text[i] == text[-i-1]:
 #             print(f"{text} is a palindrome")
 #             return
 #         else:
-#             if text[i] != text[(-i)-1]:
+#             if text[i] != text[-i-1]:
 #                 print(f"{text} is a not a palindrome")
 #                 return
 # print(f"type the number or text to check for palindrome:")
 # text = input()
 # palindrome(str(text))
+
+# questioin 17:
+
+# def parity_filter(list1,list2,list_expected):
+#     for num in list1:
+#         if num %2 != 0:
+#             list_expected.append(num)
+#
+#     for num in list2:
+#         if num %2 == 0:
+#             list_expected.append(num)
+#
+# list_expected =[]
+# parity_filter([10,20,25,30,35],[40,45,60,75,90],list_expected)
+# print(list_expected)
+
+# question 18:
+# num = int(123456789)
+#
+# while num > 0:
+#     digit = num % 10
+#     print(digit, end="")
+#     num = num // 10
+
