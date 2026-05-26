@@ -100,5 +100,72 @@
 # unique_data = list(set(data))
 # print(f"the unique data is : {unique_data}")
 
+# question 12:
+# numbers_x = [10, 20, 30, 40, 10]
+# numbers_y = [75, 65, 35, 75, 30]
+#
+# def matchx (numbers_x):
+#     first_digit = numbers_x[0]
+#     last_digit = numbers_x[-1]
+#     if first_digit == last_digit:
+#         return True
+#     else:
+#         return False
+# def matchy (numbers_y):
+#     first_digit = numbers_y[0]
+#     last_digit = numbers_y[-1]
+#     if first_digit == last_digit:
+#         return True
+#     else:
+#         return False
+# print(matchx(numbers_x))
+# print(matchy(numbers_y))
 
+# question 13:
+# num_list = [10, 20, 33, 46, 55]
+# for num in num_list:
+#     if num % 5 == 0:
+#         print(num)
+#     else:
+#         continue
+#
 
+# question 14:
+# str_x = "Emma is good developer. Emma is a writer, Emma is a boy, and Emma is an artist."
+# count = str_x.lower().count('emma')
+# print(f"Emma appeard {count} times.")
+
+# question 15:
+# for i in range(1,6):
+#     for j in range(i):
+#         print(i,end=" ")
+#     print('\n')
+
+# # or
+# for i in range(1,10):
+#     print((str(i)+"")*i)
+
+#question 16:
+# num1 = str(141)
+# num2 = str(123)
+# def main (num):
+#     first_char = num[0]
+#     last_char = num[-1]
+#     if first_char == last_char:
+#         print(f"{num} is a palindrome")
+#     else:
+#         print(f"{num} is not a palindrome")
+# main(str(123))
+
+# def palindrome(text):
+#     for i in range(0,len(text)):
+#         if text[i] == text[(-i)-1]:
+#             print(f"{text} is a palindrome")
+#             return
+#         else:
+#             if text[i] != text[(-i)-1]:
+#                 print(f"{text} is a not a palindrome")
+#                 return
+# print(f"type the number or text to check for palindrome:")
+# text = input()
+# palindrome(str(text))
