@@ -13,6 +13,7 @@
 #     print("Product of A & B : ",product(a, b))
 # else:
 #     print("sum of A & B : ",sum(a, b))
+# from calendar import error
 
 # QUESTION 2:
 # print("Printing current and previous number sum in a range(10)")
@@ -218,6 +219,127 @@
 #     print("\n")
 
 # question 21:
+#
+# for i in range (5,0,-1):
+#     print("* "* i)
 
-for i in range (5,0,-1):
-    print("* "* i)
+
+# question 22:
+# def exponent(base,exp):
+#     return base**exp
+# exponent(2,3)
+# print(exponent(2,3))
+
+# # question 23:
+# num = str(11111113)
+# for i in range (len(num)):
+#     if num[i] == num[i-1]:
+#         print(f"{num} is a palindrome ")
+#         break
+#     else:
+#         print(f"{num} is not a palindrome ")
+#         break
+
+# question 24:
+# def fib(n):
+#     a, b = 0 ,1
+#     if n == 0:
+#         print(a)
+#     else:
+#         print(a,b, end=' ')
+#
+#         for i in range (1,n):
+#             c = a + b
+#             a = b
+#             b = c
+#             print(c,end=" ")
+# fib(15)
+
+# question 25:
+# year = 2034
+# if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+#     print(f"{year} is a leap year")
+# else:
+#     print(f"{year} is not a leap year")
+
+# question 26:
+# dict1 = {'name':"alice", 'age':"25"}
+# dict2 = {'city':"New York", 'job':"engineer"}
+# combine = dict1 | dict2
+# print(combine)
+
+# question 27:
+
+# list1 = [1,2,3,4,5]
+# list2 = [4,5,6,7,8]
+# list1 = set(list1)
+# list2 = set(list2)
+# list3 = set(list1 | list2)
+# print(list3)
+# print(list1 & list2)
+
+# Question 28:
+# numbers = [12, 7, 34, 21, 5, 10, 8, 3, 19, 2]
+# even = []
+# odd = []
+# for number in numbers:
+#     if number%2 == 0:
+#         even.append(number)
+#     else:
+#         odd.append(number)
+# print(f"Even numbers:{even} Odd numbers: {odd}")
+
+# question 29:
+# words = ["Apple", "Banana", "Cherry", "Date", "Elderberry"]
+# # print(len(words[3]))
+# for i in range(len(words)):
+#     print(f"{words[i]}-{len(words[i])}", end=" ")
+
+# Question 30:
+# text = "apple banana apple cherry banana apple"
+# words = text.split()
+# print(text)
+# frequency = {}
+# for word in words:
+#     if word in frequency:
+#         frequency[word] += 1
+#     else:
+#         frequency[word] = 1
+# print(frequency)
+
+# Question 31:
+# Function to check prime number
+# def is_prime(n):
+#
+#     if n < 2:
+#         return False
+#
+#     for i in range(2, n):
+#
+#         if n % i == 0:
+#             return False
+#
+#     return True
+
+
+# Function to get alternate prime numbers
+# def alternate_primes(limit):
+#
+#     primes = []
+#
+#     # Find all prime numbers
+#     for num in range(2, limit + 1):
+#
+#         if is_prime(num):
+#             primes.append(num)
+#
+#     # Return every second prime
+#     return primes[1::2]
+#
+#
+# # Function call
+# result = alternate_primes(20)
+#
+# print(result)
+
+#
