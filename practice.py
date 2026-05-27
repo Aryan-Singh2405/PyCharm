@@ -193,3 +193,26 @@
 #     print(digit, end="")
 #     num = num // 10
 
+# QUESTION 19:
+# income = int(input("enter your income in $ :"))
+# tax = 0
+# if income <= 10000:
+#     print('you do not come under tax bracket')
+#
+# elif income <= 20000:
+#     tax = (income - 10000) * 0.10
+#     print(f"applied text will be 10% for 10k< income < 20k: {tax}")
+# else:
+#     tax = (10000 * 0.10) + ((income-20000) * 0.20)
+#     print(f"applied text will be 20% for income > 20k : {tax}")
+
+# question 20:
+
+# for i in range(1, 11):
+#     print(i, end="\t")
+# print('\n')
+# for i in range(1,21):
+#     print(i)
+#     for j in range(1,11):
+#         print(i*j, end="\t")
+#     print("\n")
