@@ -342,11 +342,20 @@
 #
 # print(result)
 
-#question 32
-numbers_0_19 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
-                10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
-print(numbers_0_19)
-first, *others, last = numbers_0_19
-print(first)
-print(others)
-print(last)
+#mislanious
+
+# numbers_0_19 = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9,
+#                 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]
+# print(numbers_0_19)
+# first, *others, last = numbers_0_19
+# print(first)
+# print(others)
+# print(last)
+letters = ["a", "b", "c", "d"]
+
+for letter in letters:
+    print(letter)
+for letter in enumerate(letters):
+        print(letter)
+for index, letter in enumerate(letters):
+    print(index, letter)
