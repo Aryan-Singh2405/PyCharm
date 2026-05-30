@@ -123,19 +123,33 @@
 
 
 
-items = [('item_1',20),
-         ('item_2',40),
-         ('item_3',70),
-         ('item_4',35),
-         ('item_5',25),
-         ('item_6',12),
-         ('item_7',10),
-         ('item_8',24),
-         ('item_9',69),
-         ('item_10',5)]
-print(items)
+# items = [('item_1',20),
+#          ('item_2',40),
+#          ('item_3',70),
+#          ('item_4',35),
+#          ('item_5',25),
+#          ('item_6',12),
+#          ('item_7',10),
+#          ('item_8',24),
+#          ('item_9',69),
+#          ('item_10',5)]
+# print(items)
+#
+# def sort_items_by_price(index):
+#     return index[1]
+# items.sort(key=sort_items_by_price)
+# print(items)
 
-def sort_items_by_price(index):
-    return index[1]
-items.sort(key=sort_items_by_price)
-print(items)
+
+
+# def f_to_c(temp):
+#     return (9/5)*temp + 32
+#
+# temp_in_F = [0,10,20,30,40,50,60,70,80,90,100]
+# temp_in_C = map(f_to_c, temp_in_F)
+# temp_in_C = list(map(f_to_c, temp_in_F))
+# print(temp_in_C)
+#
+# temp_in_F = [0,10,20,30,40,50,60,70,80,90,100]
+# temp_in_c = list(map(lambda temp :(9/5)*temp + 32, temp_in_F))
+# print(temp_in_c)

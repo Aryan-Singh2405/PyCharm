@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3af52bc0-0724-43ff-8a28-af276127f117" name="Changes" comment="testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.py" beforeDir="false" afterPath="$PROJECT_DIR$/practice.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FIZZ_BUZZ.py" beforeDir="false" afterPath="$PROJECT_DIR$/FIZZ_BUZZ.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +248,7 @@
       <workItem from="1780035232176" duration="1360000" />
       <workItem from="1780039996093" duration="340000" />
       <workItem from="1780040352945" duration="2756000" />
-      <workItem from="1780065580269" duration="4702000" />
+      <workItem from="1780065580269" duration="6740000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <option name="closed" value="true" />
@@ -394,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1779978272519</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="testing">
+      <option name="closed" value="true" />
+      <created>1780120890164</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1780120890164</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -417,7 +425,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCharm$class_1.coverage" NAME="class 1 Coverage Results" MODIFIED="1778821603556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyCharm$class_formatted_strings_py.coverage" NAME="class-formatted-strings.py Coverage Results" MODIFIED="1780120865539" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Aryan\PycharmProjects\PyCharm" />
+    <SUITE FILE_PATH="coverage/PyCharm$class_formatted_strings_py.coverage" NAME="class-formatted-strings.py Coverage Results" MODIFIED="1780121983452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Aryan\PycharmProjects\PyCharm" />
     <SUITE FILE_PATH="coverage/PyCharm$class_2.coverage" NAME="class 2 Coverage Results" MODIFIED="1778821286681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyCharm$class_escape_sequence.coverage" NAME="class_escape_sequence Coverage Results" MODIFIED="1779379680889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
