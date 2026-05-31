@@ -159,12 +159,34 @@
 # pass_or_not = list(filter(lambda grade:grade >=32,grades))
 # print(pass_or_not, len(pass_or_not))
 
-product = [("jersey",6000),
-           ("shin pads",1200),
-           ("cleats",37000),("football",7000),
-           ("tape",300),
-           ("grip socks",800)]
-product.sort(key = lambda index : index[1])
-filtered_price= list(filter(lambda index: index[1] < 1000,product))
-print(product)
-print(filtered_price)
+# product = [("jersey",6000),
+#            ("shin pads",1200),
+#            ("cleats",37000),("football",7000),
+#            ("tape",300),
+#            ("grip socks",800)]
+# product.sort(key = lambda index : index[1])
+# filtered_price= list(filter(lambda index: index[1] < 1000,product))
+# print(product)
+# print(filtered_price)
+
+
+# fruits= ["apple","mango","papaya","banana","kiwi","strawberry",]
+# fruits = [fruit.upper() for fruit in fruits]
+# print(fruits)
+
+# products = [
+#     ("Product1", 15),
+#     ("Product2", 50),
+#     ("Product3", 5)
+# ]
+# prices = [price[1] for price in products]
+# print(prices)
+#
+# by_mapping = list(map(lambda price : price[1], products))
+# print(by_mapping)
+
+list_1 = [1, 2, 3, 4]
+list_2 = [10, 20, 30, 40, 50, 60]
+
+combined_list = list(zip(list_1, list_2))
+print(combined_list)
