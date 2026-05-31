@@ -153,3 +153,18 @@
 # temp_in_F = [0,10,20,30,40,50,60,70,80,90,100]
 # temp_in_c = list(map(lambda temp :(9/5)*temp + 32, temp_in_F))
 # print(temp_in_c)
+
+
+# grades = [15,70,34,40,56,21,86,85,99,100,22,32,55,67,89,13,67,77,88]
+# pass_or_not = list(filter(lambda grade:grade >=32,grades))
+# print(pass_or_not, len(pass_or_not))
+
+product = [("jersey",6000),
+           ("shin pads",1200),
+           ("cleats",37000),("football",7000),
+           ("tape",300),
+           ("grip socks",800)]
+product.sort(key = lambda index : index[1])
+filtered_price= list(filter(lambda index: index[1] < 1000,product))
+print(product)
+print(filtered_price)

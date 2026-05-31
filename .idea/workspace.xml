@@ -248,7 +248,8 @@
       <workItem from="1780035232176" duration="1360000" />
       <workItem from="1780039996093" duration="340000" />
       <workItem from="1780040352945" duration="2756000" />
-      <workItem from="1780065580269" duration="6740000" />
+      <workItem from="1780065580269" duration="6756000" />
+      <workItem from="1780212251365" duration="2235000" />
     </task>
     <task id="LOCAL-00001" summary="testing">
       <option name="closed" value="true" />
@@ -402,7 +403,15 @@
       <option name="project" value="LOCAL" />
       <updated>1780120890164</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="testing">
+      <option name="closed" value="true" />
+      <created>1780169469593</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1780169469593</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -425,7 +434,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PyCharm$class_1.coverage" NAME="class 1 Coverage Results" MODIFIED="1778821603556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/PyCharm$class_formatted_strings_py.coverage" NAME="class-formatted-strings.py Coverage Results" MODIFIED="1780121983452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Aryan\PycharmProjects\PyCharm" />
+    <SUITE FILE_PATH="coverage/PyCharm$class_formatted_strings_py.coverage" NAME="class-formatted-strings.py Coverage Results" MODIFIED="1780226782097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="C:\Users\Aryan\PycharmProjects\PyCharm" />
     <SUITE FILE_PATH="coverage/PyCharm$class_2.coverage" NAME="class 2 Coverage Results" MODIFIED="1778821286681" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/PyCharm$class_escape_sequence.coverage" NAME="class_escape_sequence Coverage Results" MODIFIED="1779379680889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
