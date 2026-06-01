@@ -191,3 +191,9 @@
 # combined_list = list(zip(list_1, list_2))
 # print(combined_list)
 
+# fruits = ["apple","mango","banana"]
+# print(help(fruits))
+#
+# from array import array
+#
+# numbers = array("i", [1, 2, 3])
