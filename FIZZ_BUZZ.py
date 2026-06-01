@@ -185,8 +185,9 @@
 # by_mapping = list(map(lambda price : price[1], products))
 # print(by_mapping)
 
-list_1 = [1, 2, 3, 4]
-list_2 = [10, 20, 30, 40, 50, 60]
+# list_1 = [1, 2, 3, 4]
+# list_2 = [10, 20, 30, 40, 50, 60]
+#
+# combined_list = list(zip(list_1, list_2))
+# print(combined_list)
 
-combined_list = list(zip(list_1, list_2))
-print(combined_list)
