@@ -197,3 +197,23 @@
 # from array import array
 #
 # numbers = array("i", [1, 2, 3])
+
+
+
+# def read_file(file_path):
+#     with open(file_path) as file:
+#         for line in file:
+#             yield line.strip()
+# file_path = "C:\\Users\\Aryan\\OneDrive\\Desktop\\test.txt"
+# for line in read_file(file_path):
+#     print(line)
+#
+# numbers = [1,2,3,4,5,6,7,8,9]
+# print(numbers)
+# print(*numbers)
+#
+# values = [*range(10)]
+# print(values)
+
+# myname = [*"hello world"]
+# print(myname)
