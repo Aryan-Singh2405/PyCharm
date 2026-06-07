@@ -232,3 +232,9 @@ for i in range(1, 11):
     for n in tables:
         print(f"{n} x {i:2} = {n*i:<3}", end="    ")
     print()
+for i in range(2,21):
+    print(i*i,end=" ")
+print("cubes ")
+for i in range(2,21):
+
+    print(i*i*i,end=" ")
