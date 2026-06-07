@@ -218,10 +218,17 @@
 # myname = [*"hello world"]
 # print(myname)
 
-for num in range(2, 20):
-    if num == 10:
-        continue  # Skip table of 10
+# for num in range(2, 20):
+#     if num == 10:
+#         continue  # Skip table of 10
+#
+#     for i in range(1, 11):
+#         print(num * i, end=" ")
+#     print()  # Move to next line after each table
 
-    for i in range(1, 11):
-        print(num * i, end=" ")
-    print()  # Move to next line after each table
+tables = [n for n in range(2, 20) if n != 10]
+
+for i in range(1, 11):
+    for n in tables:
+        print(f"{n} x {i:2} = {n*i:<3}", end="    ")
+    print()
