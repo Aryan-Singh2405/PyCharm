@@ -217,3 +217,11 @@
 
 # myname = [*"hello world"]
 # print(myname)
+
+for num in range(2, 20):
+    if num == 10:
+        continue  # Skip table of 10
+
+    for i in range(1, 11):
+        print(num * i, end=" ")
+    print()  # Move to next line after each table
