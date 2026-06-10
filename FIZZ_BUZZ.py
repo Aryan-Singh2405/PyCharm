@@ -226,15 +226,23 @@
 #         print(num * i, end=" ")
 #     print()  # Move to next line after each table
 
-tables = [n for n in range(2, 20) if n != 10]
+# tables = [n for n in range(2, 20) if n != 10]
+#
+# for i in range(1, 11):
+#     for n in tables:
+#         print(f"{n} x {i:2} = {n*i:<3}", end="    ")
+#     print()
+# for i in range(2,21):
+#     print(i*i,end=" ")
+# print("cubes ")
+# for i in range(2,21):
+#
+#     print(i*i*i,end=" ")
 
-for i in range(1, 11):
-    for n in tables:
-        print(f"{n} x {i:2} = {n*i:<3}", end="    ")
-    print()
-for i in range(2,21):
-    print(i*i,end=" ")
-print("cubes ")
-for i in range(2,21):
+numbers = []
 
-    print(i*i*i,end=" ")
+for i in range(1, 81):
+    numbers.append(i)
+
+print(numbers[50:81])
+print(numbers[:-1])
