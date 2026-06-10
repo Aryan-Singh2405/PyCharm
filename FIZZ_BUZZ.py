@@ -245,4 +245,4 @@ for i in range(1, 81):
     numbers.append(i)
 
 print(numbers[50:81])
-print(numbers[:-1])
+print(numbers[41:50])
